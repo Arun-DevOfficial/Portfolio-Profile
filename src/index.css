@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Headerfont";
+  src: url("../src/Fonts/architect_s_daughter/ArchitectsDaughter.ttf")
+    format(truetype);
+}
+@font-face {
+  font-family: "Logo";
+  src: url("../src/Fonts/pavelt/Pavelt.ttf") format(truetype);
+}
+@font-face {
+  font-family: "profile";
+  src: url("../src/Fonts/hungtrey_beatmora/Hungtrey\ Beatmora.otf")
+    format(truetype);
+}
+@font-face {
+  font-family: "profile1";
+  src: url("../src/Fonts/octopus_game/Octopus\ Game.ttf") format(truetype);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto+Mono&family=Roboto+Slab:wght@400;500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto+Slab:wght@400;500;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
